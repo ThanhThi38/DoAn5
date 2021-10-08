@@ -1,0 +1,166 @@
+<!-- Breadcrumb Area Start Here -->
+<div class="breadcrumb-area">
+    <div class="container">
+        <ol class="breadcrumb breadcrumb-list">
+            <li class="breadcrumb-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active">shop</li>
+        </ol>
+    </div>
+</div>
+<!-- Breadcrumb Area End Here -->
+<!-- Shop Page Start -->
+<div class="main-shop-page pb-80">
+    <div class="container">
+        <!-- Row End -->
+        <div class="row">
+            <!-- Product Categorie List Start -->
+            <div class="col-lg-12 order-1 order-lg-2">
+                <!-- Grid & List View Start -->
+                <div class="grid-list-top border-default universal-padding d-md-flex justify-content-md-between align-items-center mb-30">
+                    <div class="grid-list-view d-flex align-items-center  mb-sm-15">
+                        <ul class="nav tabs-area d-flex align-items-center">
+                            <li>
+                                <a class="active" data-toggle="tab" href="#grid-view">
+                                    <i class="fa fa-th"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#list-view">
+                                    <i class="fa fa-list-ul"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <span class="show-items">Tổng cộng {{ totalRecords }} sản phẩm.</span>
+                    </div>
+                    <!-- Toolbar Short Area Start -->
+                    <div class="main-toolbar-sorter clearfix">
+                        <div class="toolbar-sorter d-md-flex align-items-center">
+                            <div class="nice-select sorter wide" tabindex="0"><span class="current text-center">-----Sắp
+                                    xếp-----</span>
+                                <ul class="list">
+                                    <li (click)="sortData('new')" class="option">Sản phẩm mới</li>
+                                    <li (click)="sortData('nameAsc')" class="option">Sắp theo tên, A -> Z</li>
+                                    <li (click)="sortData('nameDesc')" class="option">Sắp theo tên, Z -> A</li>
+                                    <li (click)="sortData('priceAsc')" class="option">Giá tăng dần</li>
+                                    <li (click)="sortData('priceDesc')" class="option">Giá giảm dần</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Toolbar Short Area End -->
+                </div>
+                <!-- Grid & List View End -->
+                <div class="shop-area mb-all-40">
+                    <!-- Grid & List Main Area End -->
+                    <div class="tab-content">
+                        <div id="grid-view" class="tab-pane fade show active">
+                            <div class="row border-hover-effect ">
+                                <p class="text-center text-danger w-100" *ngIf="totalRecords == 0">
+                                    Không có sản phẩm trong danh mục này.
+                                </p>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-6" *ngFor="let item of list">
+                                    <!-- Single Product Start -->
+                                    <div class="single-ponno-product">
+                                        <!-- Product Image Start -->
+                                        <div class="pro-img">
+                                            <a [routerLink]="['/chi-tiet', item.slug]">
+                                                <img class="primary-img" [src]="createImg(item.images[0].name)" alt="single-product">
+                                            </a>
+<!--                                            <div class="pro-actions-link">-->
+<!--                                                <a href="compare.html" title="Compare">-->
+<!--                                                    <span class="icon icon-MusicMixer"></span>-->
+<!--                                                </a>-->
+<!--                                                <a href="#" data-toggle="modal" data-target="#myModal" title="Quick View">-->
+<!--                                                    <span class="icon icon-Eye"></span>-->
+<!--                                                </a>-->
+<!--                                            </div>-->
+                                            <a class="sticker-new " href="wishlist.html">
+                                                <span class="ti-heart"></span>
+                                            </a>
+                                            <span class="sticker-sale" *ngIf="item.sale != 0">{{item.sale}}</span>
+                                        </div>
+                                        <!-- Product Image End -->
+                                        <!-- Product Content Start -->
+                                        <div class="pro-content">
+                                            <div class="pro-info">
+                                                <h4>
+                                                    <a [routerLink]="['/chi-tiet', item.slug]">{{ item.name }}</a>
+                                                </h4>
+                                                <p>
+                                                    <span class="special-price">{{ item.price | number }} đ</span>
+                                                </p>
+                                            </div>
+                                            <div class="pro-add-cart">
+                                                <a [routerLink]="['/chi-tiet', item.slug]" title="Xem chi tiết">Xem chi
+                                                    tiết</a>
+                                            </div>
+                                        </div>
+                                        <!-- Product Content End -->
+                                    </div>
+                                    <!-- Single Product End -->
+                                </div>
+                            </div>
+                            <!-- Row End -->
+                        </div>
+                        <!-- #grid view End -->
+                        <div id="list-view" class="tab-pane fade fix">
+                            <!-- Single Product Start -->
+                            <div class="single-ponno-product" *ngFor="let item of list">
+                                <!-- Product Image Start -->
+                                <div class="pro-img">
+                                    <a [routerLink]="['/chi-tiet', item.slug]">
+                                        <img class="primary-img" [src]="createImg(item.images[0].name)" alt="single-product">
+                                    </a>
+                                </div>
+                                <!-- Product Image End -->
+                                <!-- Product Content Start -->
+                                <div class="pro-content">
+                                    <div class="pro-info">
+                                        <h4>
+                                            <a [routerLink]="['/chi-tiet', item.slug]">{{ item.name }}</a>
+                                        </h4>
+                                        <p>
+                                            <span class="special-price">{{ item.price | number }} đ</span>
+                                        </p>
+                                        <p innerHTML="{{ item.description }}"></p>
+                                        <p>
+                                            <div class="pro-actions">
+                                                <div class="pro-add-cart">
+                                                    <a [routerLink]="['/chi-tiet', item.slug]" title="Xem chi tiết">Xem chi
+                                                    tiết</a>
+                                                </div>
+<!--                                                <div class="pro-actions-link">-->
+<!--                                                    <a href="compare.html" title="Compare">-->
+<!--                                                        <span class="icon icon-MusicMixer"></span>-->
+<!--                                                    </a>-->
+<!--                                                    <a href="#" data-toggle="modal" data-target="#myModal" title="Quick View">-->
+<!--                                                        <span class="icon icon-Eye"></span>-->
+<!--                                                    </a>-->
+<!--                                                </div>-->
+                                            </div>
+                                    </div>
+                                </div>
+                                <!-- Product Content End -->
+                            </div>
+                            <!-- Single Product End -->
+                        </div>
+                        <!-- #list view End -->
+                    </div>
+                    <!-- Grid & List Main Area End -->
+                </div>
+                <!-- Shop Breadcrumb Area Start -->
+                <div class="shop-breadcrumb-area border-default" *ngIf="totalRecords != 0">
+                    <p-paginator rows="{{ rows }}" totalRecords="{{ totalRecords }}" (onPageChange)="paginate($event)">
+                    </p-paginator>
+                </div>
+                <!-- Shop Breadcrumb Area End -->
+            </div>
+            <!-- product Categorie List End -->
+        </div>
+        <!-- Row End -->
+    </div>
+    <!-- Container End -->
+</div>
+<!-- Shop Page End -->

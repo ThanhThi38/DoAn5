@@ -1,0 +1,273 @@
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.deps.json
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.runtimeconfig.json
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.runtimeconfig.dev.json
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.pdb
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csprojAssemblyReference.cache
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.AssemblyInfoInputs.cache
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.AssemblyInfo.cs
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csproj.CoreCompileInputs.cache
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.RazorTargetAssemblyInfo.cache
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csproj.CopyComplete
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/obj/Debug/netcoreapp3.1/staticwebassets/WebAPI.StaticWebAssets.Manifest.cache
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/obj/Debug/netcoreapp3.1/staticwebassets/WebAPI.StaticWebAssets.xml
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.pdb
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.genruntimeconfig.cache
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/BCrypt.Net-Next.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/Humanizer.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/xuanvu/Documents/DoAn5/WebAPI/WebAPI/obj/Debug/netcoreapp3.1/scopedcss/bundle/WebAPI.styles.css
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\appsettings.json
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.exe
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.deps.json
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.json
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.dev.json
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.pdb
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\BCrypt.Net-Next.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Humanizer.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.xml
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebAPI.styles.css
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
+D:\DoAn5 (1)\DoAn5\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache

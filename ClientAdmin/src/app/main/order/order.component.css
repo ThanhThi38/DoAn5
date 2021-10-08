@@ -1,0 +1,25 @@
+:host ::ng-deep .ck-editor__editable_inline {
+    min-height: 200px;
+    color: black !important;
+}
+
+.btn-icon {
+    width: 30px !important;
+    min-width: 30px !important;
+    height: 30px !important;
+}
+
+.input-group>.custom-select:not(:first-child),
+.input-group>.form-control:not(:first-child) {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.btn-cate {
+    margin: 0 !important;
+    padding: 9px !important;
+}
+
+.modal > input {
+  color: black !important;
+}

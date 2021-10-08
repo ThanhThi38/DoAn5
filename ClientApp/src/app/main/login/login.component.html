@@ -1,0 +1,64 @@
+<p-toast></p-toast>
+<!-- Breadcrumb Area Start Here -->
+<div class="breadcrumb-area">
+  <div class="container">
+    <ol class="breadcrumb breadcrumb-list">
+      <li class="breadcrumb-item">
+        <a href="index.html">Trang chủ</a>
+      </li>
+      <li class="breadcrumb-item active">Đăng nhập</li>
+    </ol>
+  </div>
+</div>
+<!-- Breadcrumb Area End Here -->
+<!-- Login Page Start Here -->
+<div class="login ptb-80">
+  <div class="container">
+    <h3 class="login-header">Đăng nhập </h3>
+    <div class="row">
+      <div class="col-xl-6 col-lg-8 offset-xl-3 offset-lg-2">
+        <div class="login-form">
+          <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <div class="form-group row">
+              <label for="email" class="col-sm-3 col-form-label">Email</label>
+              <div class="col-sm-7">
+                <input type="text" class="form-control" id="email" formControlName="email" placeholder="Email">
+                <div *ngIf="submitted && form.controls.email.errors">
+                  <label class="text-danger" *ngIf="form.controls.email.errors.required">Chưa nhập email.</label>
+                  <label class="text-danger" *ngIf="form.controls.email.errors.email">Email không đúng định
+                    dạng.</label>
+                  <label class="text-danger" *ngIf="form.controls.email.errors.minlength">Email không được nhỏ hơn 10 ký
+                    tự.</label>
+                  <label class="text-danger" *ngIf="form.controls.email.errors.maxlength">Email không được lớn hơn 70 ký
+                    tự.</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
+              <div class="col-sm-7">
+                <input type="password" class="form-control" formControlName="password" id="inputPassword"
+                       placeholder="Password">
+                <button class="btn show-btn" (click)="showBtn()" type="button">Show</button>
+                <div *ngIf="submitted && form.controls.password.errors">
+                  <label class="text-danger" *ngIf="form.controls.password.errors.required">Chưa nhập mật khẩu.</label>
+                  <label class="text-danger" *ngIf="form.controls.password.errors.minlength">Mật khẩu không được dưới 6
+                    ký tự.</label>
+                  <label class="text-danger" *ngIf="form.controls.password.errors.maxlength">Mật khẩu không được trên 50
+                    ký tự.</label>
+                </div>
+              </div>
+            </div>
+            <div class="login-details text-center mb-25">
+              <button type="submit" class="login-btn">Đăng nhập</button>
+            </div>
+            <div class="login-footer text-center">
+              <p>Bạn chưa có tài khoản? <a routerLink="/dang-ky">Đăng ký tại đây</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Login Page End Here -->

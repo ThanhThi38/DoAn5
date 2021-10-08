@@ -1,0 +1,175 @@
+<p-toast position="bottom-right"></p-toast>
+<!-- Breadcrumb Area Start Here -->
+<div class="breadcrumb-area">
+    <div class="container">
+        <ol class="breadcrumb breadcrumb-list">
+            <li class="breadcrumb-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active">Product Details</li>
+        </ol>
+    </div>
+</div>
+<!-- Breadcrumb Area End Here -->
+<!-- Product Thumbnail Start -->
+<div class="main-product-thumbnail ptb-80">
+    <div class="container">
+        <div class="row">
+            <!-- Main Thumbnail Image Start -->
+            <div class="col-lg-5 col-md-6 mb-all-40">
+                <!-- Thumbnail Large Image start -->
+                <div class="tab-content">
+                    <ng-container *ngFor="let item of product.images">
+                        <div id="thumb{{item.id}}" class="tab-pane fade{{ item.name == product.images[0].name ? ' show active ' : '' }}">
+                            <a data-fancybox="images" href="{{item.name}}">
+                                <img [src]="createImg(item.name)" alt="product-view">
+                            </a>
+                        </div>
+                    </ng-container>
+                </div>
+                <!-- Thumbnail Large Image End -->
+                <!-- Thumbnail Image End -->
+                <div class="product-thumbnail">
+                    <!-- <div class="thumb-menu nav tabs-area" role="tablist"> -->
+                    <owl-carousel-o [options]="thumbOption">
+                        <ng-container *ngFor="let item of product.images">
+                            <ng-template carouselSlide id="{{item.id}}">
+                                <div class="thumb-menu nav" role="tablist">
+                                    <a class="{{item.name == product.images[0].name ? 'active' : ''}}" data-toggle="tab" href="#thumb{{item.id}}">
+                                        <img [src]="createImg(item.name)" [alt]="item.name" [title]="item.name">
+                                    </a>
+                                </div>
+                            </ng-template>
+                        </ng-container>
+                    </owl-carousel-o>
+                </div>
+                <!-- Thumbnail image end -->
+            </div>
+            <!-- Main Thumbnail Image End -->
+            <!-- Thumbnail Description Start -->
+            <div class="col-lg-7 col-md-6">
+                <div class="thubnail-desc ">
+                    <h3 class="product-header">{{product.name}}</h3>
+                    <div class="pro-thumb-price mt-20">
+                        <p>
+                            <span class="special-price">{{totalPrice | number}} đ</span>
+                            <del class="old-price" *ngIf="product.sale != 0">{{product.price |number}} đ</del>
+                        </p>
+                    </div>
+                    <p class="pro-desc-details" innerHTML="{{product.description}}"></p>
+                    <form [formGroup]="form" (ngSubmit)="addCart()">
+                        <div class="color clearfix mb-30">
+                            <label>color</label>
+                            <div class="color-picker">
+                                <ng-container *ngFor="let item of product.options">
+                                    <div class="color-picker__item">
+                                        <input id="input{{item.id}}" type="radio" class="color-picker__input" formControlName="optionName" value="{{item.name}}" />
+                                        <label for="input{{item.id}}" class="color-picker__color" (click)="changePrice(item.price)" [ngStyle]="{'background': item.name}"></label>
+                                    </div>
+                                </ng-container>
+                            </div>
+                          <div *ngIf="submitted && form.controls.optionName.errors">
+                            <label class="text-danger" *ngIf="form.controls.optionName.errors.required">Chưa chọn màu sản phẩm.</label>
+                          </div>
+                        </div>
+                        <div class="quatity-stock">
+                            <label>Quantity</label>
+                            <ul class="d-flex flex-wrap">
+                                <li class="box-quantity">
+                                    <input class="quantity" type="number" formControlName="quantity" min="1" value="1">
+                                  <div *ngIf="submitted && form.controls.quantity.errors">
+                                    <label class="text-danger" *ngIf="form.controls.quantity.errors.required">Chưa nhập số lượng.</label>
+                                    <label class="text-danger" *ngIf="form.controls.quantity.errors.min">Tối thiểu 1 sản phẩm.</label>
+                                  </div>
+                                </li>
+                                <li>
+                                    <button type="submit" class="pro-cart">Thêm vào giỏ hàng</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Thumbnail Description End -->
+        </div>
+        <!-- Row End -->
+    </div>
+    <!-- Container End -->
+</div>
+<!-- Product Thumbnail End -->
+<!-- Product Thumbnail Description Start -->
+<div class="thumnail-desc  pb-80">
+    <div class="container">
+        <div class="thumb-desc-inner">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="main-thumb-desc nav tabs-area" role="tablist">
+                        <li>
+                            <a class="active" data-toggle="tab" href="#dtail">Bài viết</a>
+                        </li>
+                    </ul>
+                    <!-- Product Thumbnail Tab Content Start -->
+                    <div class="tab-content thumb-content">
+                        <div id="dtail" class="tab-pane fade show active">
+                            <p innerHTML="{{product.content}}"></p>
+                        </div>
+                    </div>
+                    <!-- Product Thumbnail Tab Content End -->
+                </div>
+            </div>
+            <!-- Row End -->
+        </div>
+    </div>
+    <!-- Container End -->
+</div>
+<!-- Product Thumbnail Description End -->
+<!-- More Product Start Here -->
+<div class="more-product pb-80">
+    <div class="container">
+        <div class="section-title text-center mb-50">
+            <h2>Sản phẩm liên quan</h2>
+        </div>
+        <!-- Featured Product Activation Start Here -->
+        <!-- Single Product Start -->
+        <owl-carousel-o [options]="relatedOption">
+            <ng-container *ngFor="let item of product.related">
+                <ng-template carouselSlide [id]="item.id">
+                    <!-- Single Product Start -->
+                    <div class="single-ponno-product">
+                        <!-- Product Image Start -->
+                        <div class="pro-img">
+                            <a [routerLink]="['/chi-tiet', item.slug]">
+                                <img class="primary-img" [src]="createImg(item.images[0].name)" alt="single-product">
+                                <img class="secondary-img" [src]="createImg(item.images[1].name)" alt="single-product">
+                            </a>
+                            <div class="pro-actions-link">
+                                <!-- <a href="compare.html" title="Compare"><span class="icon icon-MusicMixer"></span></a> -->
+                                <a href="#" data-toggle="modal" data-target="#myModal" title="Quick View"><span
+                                        class="icon icon-Eye"></span></a>
+                            </div>
+                            <!-- <a class="sticker-new " href="wishlist.html"><span class="ti-heart"></span></a> -->
+                            <span class="sticker-sale">{{item.sale}}</span>
+                        </div>
+                        <!-- Product Image End -->
+                        <!-- Product Content Start -->
+                        <div class="pro-content">
+                            <div class="pro-info">
+                                <h4><a [routerLink]="['/chi-tiet', item.slug]">{{item.name}}</a></h4>
+                                <p><span class="special-price">{{item.price}}</span></p>
+                            </div>
+                            <div class="pro-add-cart">
+                              <a [routerLink]="['/chi-tiet', item.slug]">Xem chi
+                                tiết</a>
+                            </div>
+                        </div>
+                        <!-- Product Content End -->
+                    </div>
+                    <!-- Single Product End -->
+                </ng-template>
+            </ng-container>
+        </owl-carousel-o>
+        <!-- Single Product End -->
+    </div>
+    <!-- Featured Product Activation Start Here -->
+</div>
+<!-- More Product End Here -->

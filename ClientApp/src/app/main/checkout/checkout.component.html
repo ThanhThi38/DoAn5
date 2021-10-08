@@ -1,0 +1,206 @@
+<p-toast position="bottom-right"></p-toast>
+<!-- coupon-area start -->
+<!-- <div class="coupon-area pt-80 pb-30">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="coupon-accordion"> -->
+<!-- Accordion Start -->
+<!-- <h3>Returning customer? <span id="showlogin">Click here to login</span></h3>
+                    <div id="checkout-login" class="coupon-content">
+                        <div class="coupon-info">
+                            <p class="coupon-text">Quisque gravida turpis sit amet nulla posuere lacinia. Cras sed est sit amet ipsum luctus.</p>
+                            <form action="#">
+                                <p class="form-row-first">
+                                    <label>Username or email <span class="required">*</span></label>
+                                    <input type="text">
+                                </p>
+                                <p class="form-row-last">
+                                    <label>Password  <span class="required">*</span></label>
+                                    <input type="text">
+                                </p>
+                                <p class="form-row align-items-center">
+                                    <input type="submit" value="Login">
+                                    <label>
+											<input type="checkbox">
+											 Remember me
+										</label>
+                                </p>
+                                <p class="lost-password">
+                                    <a href="#">Lost your password?</a>
+                                </p>
+                            </form>
+                        </div>
+                    </div> -->
+<!-- Accordion End -->
+<!-- Accordion Start -->
+<!-- <h3>Have a coupon? <span id="showcoupon">Click here to enter your code</span></h3>
+                    <div id="checkout_coupon" class="coupon-checkout-content">
+                        <div class="coupon-info">
+                            <form action="#">
+                                <p class="checkout-coupon">
+                                    <input type="text" class="code" placeholder="Coupon code">
+                                    <input type="submit" value="Apply Coupon">
+                                </p>
+                            </form>
+                        </div>
+                    </div> -->
+<!-- ACCORDION END -->
+<!-- </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- coupon-area end -->
+<!-- checkout-area start -->
+<div class="checkout-area pb-80 pt-30">
+    <div class="container">
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="checkbox-form mb-sm-40">
+                        <h3>Thông tin người nhận</h3>
+                        <div class="row">
+                            <div class="col-md-12 mb-2">
+                                <div class="checkout-form-list">
+                                    <label>Họ & tên <span class="required">*</span></label>
+                                    <input type="text" placeholder="Nhập họ tên" formControlName="name">
+                                  <div *ngIf="submitted && form.controls.name.errors">
+                                    <label class="text-danger" *ngIf="form.controls.name.errors.required">Chưa nhập họ tên.</label>
+                                    <label class="text-danger" *ngIf="form.controls.name.errors.minlength">Họ tên phải trên 2 ký
+                                      tự.</label>
+                                    <label class="text-danger" *ngIf="form.controls.name.errors.maxlength">Họ tên phải dưới 250 ký
+                                      tự.</label>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-2">
+                                <div class="checkout-form-list">
+                                    <label>Số điện thoại <span class="required">*</span></label>
+                                    <input type="text" placeholder="Nhập số điện thoại" formControlName="phone">
+                                  <div *ngIf="submitted && form.controls.phone.errors">
+                                    <label class="text-danger" *ngIf="form.controls.phone.errors.required">Chưa nhập số điện
+                                      thoại.</label>
+                                    <label class="text-danger" *ngIf="form.controls.phone.errors.pattern">Số điện thoại không hợp
+                                      lệ</label>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-2">
+                                <div class="checkout-form-list">
+                                    <label>Tỉnh <span class="required">*</span></label>
+                                    <div class="nice-select sorter wide" tabindex="0"><span class="current">--Chọn
+                                            tỉnh--</span>
+                                        <ul class="list">
+                                            <li (click)="getDistrict(item.name)" class="option" *ngFor="let item of listCity">
+                                                {{item.name}}</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-2">
+                                <div class="checkout-form-list">
+                                    <label>Huyện <span class="required">*</span></label>
+                                    <div class="nice-select sorter wide disabled" id="huyen" tabindex="0"><span class="current">--Chọn
+                                            huyện--</span>
+                                        <ul class="list">
+                                            <li (click)="getCommune(item.name)" class="option" *ngFor="let item of listDistrict">
+                                                {{item.name}}</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-2">
+                                <div class="checkout-form-list">
+                                    <label>Xã <span class="required">*</span></label>
+                                    <div class="nice-select sorter wide disabled" id="xa" tabindex="0"><span class="current">--Chọn
+                                            xã--</span>
+                                        <ul class="list">
+                                            <li (click)="getNameCommune(item.name)" class="option" *ngFor="let item of listCommune">
+                                                {{item.name}}</li>
+                                        </ul>
+                                    </div>
+
+                                  <div *ngIf="submitted && commune == null">
+                                    <label class="text-danger">Chưa chọn địa chỉ.</label>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-2">
+                                <div class="checkout-form-list">
+                                    <label>Tòa nhà, tên đường... <span class="required">*</span></label>
+                                    <input type="text" placeholder="Nhập địa chỉ" formControlName="address">
+                                  <div *ngIf="submitted && form.controls.address.errors">
+                                    <label class="text-danger" *ngIf="form.controls.address.errors.required">Chưa nhập địa chỉ cụ thể.</label>
+                                    <label class="text-danger" *ngIf="form.controls.address.errors.maxlength">Địa chỉ phải nhỏ hơn 250 ký tự</label>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="your-order">
+                        <h3>Đơn hàng</h3>
+                        <div class="your-order-table table-responsive">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="product-name">Sản phẩm</th>
+                                        <th class="product-total">Giá bán</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="cart_item" *ngFor="let item of listCart">
+                                        <td class="product-name">
+                                            {{item.products.name}} <span class="product-quantity"> ×
+                                                {{item.quantity}}</span>
+                                        </td>
+                                        <td class="product-total">
+                                            <span class="amount">{{(item.products.price - (item.products.price * item.products.sale / 100) + item.products.options.price)*item.quantity|number}}</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr class="cart-subtotal">
+                                        <th>Tổng số lượng</th>
+                                        <td><span class="amount">{{quantity}}</span></td>
+                                    </tr>
+                                    <tr class="order-total">
+                                        <th>Tổng đơn hàng</th>
+                                        <td><span class=" total amount">{{total|number}}</span>
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                        <div class="payment-method">
+                            <div id="accordion">
+                                <div class="card" *ngFor="let item of listPayment">
+                                    <div class="card-header" id="headingone">
+                                        <h5 class="mb-0">
+                                            <label class="btn btn-link" [for]="item.id" (click)="showCollapse(item.id)">
+                                                {{item.name}}
+                                            </label>
+                                            <div class="float-right p-1">
+                                                <p-radioButton name="groupname" [inputId]="item.id" id="btn{{item.id}}" value="{{item.id}}" formControlName="paymentId"></p-radioButton>
+                                            </div>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapse{{item.id}}" class="collapse {{item.id == listPayment[0].id ? 'show' : ''}}" aria-labelledby="headingone" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>{{item.description}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-dark mt-2">Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- checkout-area end -->

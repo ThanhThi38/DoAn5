@@ -1,0 +1,95 @@
+<!-- Breadcrumb Area Start Here -->
+<div class="breadcrumb-area">
+    <div class="container">
+        <ol class="breadcrumb breadcrumb-list">
+            <li class="breadcrumb-item">
+                <a href="index.html">Trang chủ</a>
+            </li>
+            <li class="breadcrumb-item active">Đăng ký</li>
+        </ol>
+    </div>
+</div>
+<!-- Breadcrumb Area End Here -->
+<!-- Regester Page Start Here -->
+<div class="register-area ptb-80">
+    <div class="container">
+        <h3 class="login-header">Tạo tài khoản </h3>
+        <div class="row">
+            <div class="offset-xl-1 col-xl-10">
+                <div class="register-form login-form clearfix">
+                    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                        <p>Bạn đã có tài khoản? <a routerLink="/dang-nhap">Đăng nhập tại đây!</a></p>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-md-3 col-form-label">Họ tên</label>
+                            <div class="col-lg-6 col-md-6">
+                                <input type="text" class="form-control" formControlName="name">
+                              <div *ngIf="submitted && form.controls.name.errors">
+                                <label class="text-danger" *ngIf="form.controls.name.errors.required">Chưa nhập họ tên.</label>
+                                <label class="text-danger" *ngIf="form.controls.name.errors.minlength">Họ tên phải trên 2 ký
+                                  tự.</label>
+                                <label class="text-danger" *ngIf="form.controls.name.errors.maxlength">Họ tên phải dưới 250 ký
+                                  tự.</label>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-md-3 col-form-label">Số điện thoại</label>
+                            <div class="col-lg-6 col-md-6">
+                                <input type="phone" class="form-control" formControlName="phone">
+                              <div *ngIf="submitted && form.controls.phone.errors">
+                                <label class="text-danger" *ngIf="form.controls.phone.errors.required">Chưa nhập số điện
+                                  thoại.</label>
+                                <label class="text-danger" *ngIf="form.controls.phone.errors.pattern">Số điện thoại không hợp
+                                  lệ</label>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-md-3 col-form-label">Email</label>
+                            <div class="col-lg-6 col-md-6">
+                                <input type="email" class="form-control" formControlName="email">
+                              <div *ngIf="submitted && form.controls.email.errors">
+                                <label class="text-danger" *ngIf="form.controls.email.errors.required">Chưa nhập email.</label>
+                                <label class="text-danger" *ngIf="form.controls.email.errors.email">Email không đúng định dạng.</label>
+                                <label class="text-danger" *ngIf="form.controls.email.errors.minlength">Email không được nhỏ hơn 10 ký
+                                  tự.</label>
+                                <label class="text-danger" *ngIf="form.controls.email.errors.maxlength">Email không được lớn hơn 70 ký
+                                  tự.</label>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-md-3 col-form-label">Mật khẩu</label>
+                            <div class="col-lg-6 col-md-6">
+                                <input type="password" class="form-control" formControlName="password">
+                                <button class="btn show-btn" (click)="showBtn()" type="button">Show</button>
+                              <div *ngIf="submitted && form.controls.password.errors">
+                                <label class="text-danger" *ngIf="form.controls.password.errors.required">Chưa nhập mật khẩu.</label>
+                                <label class="text-danger" *ngIf="form.controls.password.errors.minlength">Mật khẩu không được dưới 6
+                                  ký tự.</label>
+                                <label class="text-danger" *ngIf="form.controls.password.errors.maxlength">Mật khẩu không được trên 50
+                                  ký tự.</label>
+                              </div>
+                            </div>
+                        </div>
+                      <div class="form-group row">
+                        <label class="col-lg-3 col-md-3 col-form-label">Xác nhận mật khẩu</label>
+                        <div class="col-lg-6 col-md-6">
+                          <input type="password" class="form-control" formControlName="password_2">
+                          <button class="btn show-btn" (click)="showPass()" type="button">Show</button>
+                          <div *ngIf="submitted && form.controls.password_2.errors">
+                            <label class="text-danger" *ngIf="form.controls.password_2.errors.required">Chưa xác nhận mật khẩu.</label>
+                            <label class="error" *ngIf="form.controls.password_2.errors.confirm_password">Mật khẩu không khớp.</label>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="register-box mt-40">
+                            <button type="submit" class="login-btn float-right">Đăng ký</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Register Page End Here -->

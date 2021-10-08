@@ -1,0 +1,93 @@
+<p-toast position="bottom-right"></p-toast>
+<!-- Cart Main Area Start -->
+<div class="cart-main-area ptb-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <!-- Form Start -->
+                <form action="#">
+                    <!-- Table Content Start -->
+                    <div class="table-content table-responsive mb-45">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="product-thumbnail">Ảnh</th>
+                                    <th class="product-name">Sản phẩm</th>
+                                    <th class="product-option">Màu</th>
+                                    <th class="product-price">Giá</th>
+                                    <th class="product-quantity">Số lượng</th>
+                                    <th class="product-subtotal">Tổng</th>
+                                    <th class="product-remove">Xóa</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngIf="listCart.length == 0">
+                                    <td colspan="7">
+                                        <p>Giỏ hàng trống.</p>
+                                    </td>
+                                </tr>
+                                <tr *ngFor="let item of listCart">
+                                    <td class="product-thumbnail">
+                                        <a [routerLink]="['/chi-tiet', item.products.slug]"><img [src]="createImg(item.products.images.name)" alt="cart-image"></a>
+                                    </td>
+                                    <td class="product-name"><a [routerLink]="['/chi-tiet', item.products.slug]">{{item.products.name}}</a>
+                                    </td>
+                                    <td class="product-option"><span><label class="color-picker__color"
+                                                [ngStyle]="{'background': item.products.options.name}"></label></span>
+                                    </td>
+                                    <td class="product-price"><span class="amount">{{item.products.price - (item.products.price * item.products.sale / 100) + item.products.options.price | number}}</span>
+                                    </td>
+                                    <td class="product-quantity"><input type="number" #quantity (change)="changeQuantity(item.id, quantity.value)" id="quantity{{item.id}}" min="1" value="{{item.quantity}}"></td>
+                                    <td class="product-subtotal">
+                                        {{(item.products.price - (item.products.price * item.products.sale / 100) + item.products.options.price)*item.quantity|number}}
+                                    </td>
+                                    <td class="product-remove"> <a (click)="removeItem(item.id)"><i class="fa fa-times"
+                                                aria-hidden="true"></i></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- Table Content Start -->
+                    <div class="row">
+                        <!-- Cart Button Start -->
+                        <div class="col-md-8 col-sm-12">
+                            <div class="buttons-cart">
+                                <a routerLink="/">Tiếp tục mua hàng</a>
+                            </div>
+                        </div>
+                        <!-- Cart Button Start -->
+                        <!-- Cart Totals Start -->
+                        <div class="col-md-4 col-sm-12" *ngIf="listCart.length != 0">
+                            <div class="cart_totals float-md-right text-md-right">
+                                <h2>Tổng giỏ hàng</h2>
+                                <br>
+                                <table class="float-md-right">
+                                    <tbody>
+                                        <tr class="cart-subtotal">
+                                            <th>Tổng số lượng</th>
+                                            <td><span class="amount">{{quantity | number}} sản phẩm</span></td>
+                                        </tr>
+                                        <tr class="order-total">
+                                            <th>Tổng đơn hàng</th>
+                                            <td>
+                                                <strong><span class="amount">{{total | number}}</span></strong>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="wc-proceed-to-checkout">
+                                    <a routerLink="/thanh-toan">Thanh toán</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Cart Totals End -->
+                    </div>
+                    <!-- Row End -->
+                </form>
+                <!-- Form End -->
+            </div>
+        </div>
+        <!-- Row End -->
+    </div>
+</div>
+<!-- Cart Main Area End -->

@@ -1,0 +1,142 @@
+<!-- Breadcrumb Area Start Here -->
+<div class="breadcrumb-area">
+  <div class="container">
+    <ol class="breadcrumb breadcrumb-list">
+      <li class="breadcrumb-item">
+        <a href="index.html">Trang chủ</a>
+      </li>
+      <li class="breadcrumb-item active">Lịch sử mua hàng</li>
+    </ol>
+  </div>
+</div>
+<!-- Breadcrumb Area End Here -->
+<!-- Wish List Start -->
+<div class="cart-main-area wish-list white-bg ptb-80">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <!-- Form Start -->
+        <!-- Table Content Start -->
+        <div class="table-content table-responsive">
+          <table>
+            <thead>
+            <tr>
+              <th class="product-remove">#</th>
+              <th class="product-name">Người nhận</th>
+              <th class="product-thumbnail">Thời gian</th>
+              <th class="product-quantity">Hình thức</th>
+              <th class="product-price">Trạng thái</th>
+              <th class="product-subtotal">Xem</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let item of listOrder; let i = index">
+              <td class="product-remove"> {{i + 1}}</td>
+              <td>{{item.shipping.name}}</td>
+              <td>
+                {{item.createdAt |date: 'd/M/yyyy hh:mm'}}
+              </td>
+              <td><span class="amount">{{item.paymentMethods.name}}</span></td>
+              <ng-container *ngFor="let status of listStatus">
+                <td *ngIf="item.status == status.id">{{status.name}}</td>
+              </ng-container>
+              <td class="product-add-to-cart"><a (click)="showDetail(item.id)" style="cursor: pointer">Xem chi tiết</a>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Table Content Start -->
+
+        <div class="shop-breadcrumb-area border-default" *ngIf="totalRecords != 0">
+          <p-paginator rows="{{ rows }}" totalRecords="{{ totalRecords }}" (onPageChange)="loadData($event)">
+          </p-paginator>
+        </div>
+        <!-- Form End -->
+      </div>
+    </div>
+    <!-- Row End -->
+  </div>
+</div>
+<!-- Wish List End -->
+
+<!-- Quick View Content Start -->
+<div class="main-product-thumbnail quick-thumb-content ">
+  <div class="container ">
+    <!-- The Modal -->
+    <div class="modal fade " id="myModal">
+      <div class="modal-dialog modal-lg modal-dialog-centered ">
+        <div class="modal-content ">
+          <!-- Modal Header -->
+          <div class="modal-header ">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body ">
+            <div class="alert alert-warning" *ngIf="detail && detail.status == 1">Vui lòng thanh toán để xác thực đơn hàng.</div>
+            <form [formGroup]="form">
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div class="form-group row">
+                    <label class="col-sm-4 col-form-label">Người nhận</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" formControlName="name">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-4 col-form-label">Số điện thoại</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" formControlName="phone">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-4 col-form-label">Địa chỉ</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" formControlName="address">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <!-- Form Start -->
+                  <!-- Table Content Start -->
+                  <div class="table-content table-responsive">
+                    <table>
+                      <thead>
+                      <tr>
+                        <th class="product-remove">#</th>
+                        <th>Sản phẩm</th>
+                        <th>Hình ảnh</th>
+                        <th>Phiên bản</th>
+                        <th>Số lượng</th>
+                        <th>Giá bán</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr *ngFor="let item of listProduct; let i = index">
+                        <td class="product-remove"> {{i + 1}}</td>
+                        <td>{{item.name}}</td>
+                        <td>
+                          <img style="width: 40px; height: 40px" [src]="createImg(item.image)" alt="cart-image">
+                        </td>
+                        <td class="text-center"><label style="width: 30px; height: 30px; margin: 0 auto" class="color-picker__color"
+                                                       [ngStyle]="{'background': item.optionName}"></label></td>
+                        <td>{{item.quantity}}</td>
+                        <td>{{item.price | number}}</td>
+                      </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- Table Content Start -->
+                  <!-- Form End -->
+                </div>
+              </div>
+            </form>
+            <!-- Row End -->
+          </div>
+          <!-- Modal footer -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Quick View Content End -->
