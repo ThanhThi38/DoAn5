@@ -24,7 +24,7 @@
                      [loading]="loading">
               <ng-template pTemplate="header">
                 <tr>
-                  <th>#</th>
+                  <th>STT</th>
                   <th>Tên</th>
                   <th>Hình ảnh</th>
                   <th>Số lượng</th>
@@ -43,7 +43,7 @@
                          src="{{item.images[0].name|getImage}}" alt="">
                   </td>
                   <td>{{item.totalQty}}</td>
-                  <td>{{item.price}}</td>
+                  <td>{{item.price| number}}đ</td>
                   <td>{{item.sale}}%</td>
                   <td>
                     <p-inputSwitch (onChange)="handleChange($event, item.id)" [inputId]="item.id"

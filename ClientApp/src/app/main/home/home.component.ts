@@ -66,6 +66,8 @@ export class HomeComponent extends ScriptService implements OnInit {
     }
   }
 
+
+
   quickView(id) {
     this.homeService.getDetail(id).subscribe((data: any) => {
 

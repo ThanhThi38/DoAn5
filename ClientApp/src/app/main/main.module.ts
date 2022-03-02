@@ -17,6 +17,7 @@ import { RegisterComponent } from './register/register.component';
 import { SearchComponent } from './search/search.component';
 import { ChangePassComponent } from './change-pass/change-pass.component';
 import { HistoryComponent } from './history/history.component';
+import { SafePipe } from '../pipes/safe.pipe';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { HistoryComponent } from './history/history.component';
     SearchComponent,
     ChangePassComponent,
     HistoryComponent,
+    SafePipe
   ],
   imports: [
     CommonModule,

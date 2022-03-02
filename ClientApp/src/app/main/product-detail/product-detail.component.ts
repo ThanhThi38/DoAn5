@@ -60,15 +60,43 @@ export class ProductDetailComponent extends ScriptService implements OnInit {
       this.product = {};
       this.homeService.getDetail(id).subscribe((data: any) => {
         this.product = data;
+        
 
         this.totalPrice = data.price - (data.price * data.sale / 100);
         this.form.patchValue({ 'productId': this.product.id });
       })
     })
+
   }
 
   createImg = (nameFile: string) => {
     return environment.urlImage + nameFile;
+  }
+
+  truncateChar(text: string): string {
+    let charlimit = 3000;
+    if(!text || text.length <= charlimit )
+    {
+        return text;
+    }
+
+    let without_html = text.replace(/<(?:.|\n)*?>/gm, '');
+    let shortened = without_html.substring(0, charlimit) + "...";
+    return shortened;
+  }
+
+  viewLess() {
+    let content = document.querySelector('#dtail');
+    if (!content.classList.contains('show_less')) {
+      content.classList.add('show_less');
+    }
+  }
+
+  viewMore() {
+    let content = document.querySelector('#dtail');
+    if (content.classList.contains('show_less')) {
+      content.classList.remove('show_less');
+    }
   }
 
   addCart() {

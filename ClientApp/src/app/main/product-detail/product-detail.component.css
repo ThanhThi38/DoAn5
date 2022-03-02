@@ -1,0 +1,17 @@
+#dtail.show_less .view_more {
+    display: none;
+}
+
+#dtail.show_less .view_less {
+    display: block;
+}
+
+#dtail .view_more {
+    cursor: pointer;
+    display: block;
+}
+
+#dtail .view_less {
+    display: none;
+    cursor: pointer;
+}

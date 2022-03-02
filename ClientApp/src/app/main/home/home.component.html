@@ -265,8 +265,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a [routerLink]="['/chi-tiet', item.slug]">
-                                                <img class="primary-img" [src]="createImg(item.images[0].name)" alt="single-product">
-                                                <img class="secondary-img" [src]="createImg(item.images[1].name)" alt="single-product">
+                                                <img class="primary-img" [src]="createImg(item.images[0]?.name)" alt="single-product">
+                                                <img class="secondary-img" *ngIf="item.images.length > 1" [src]="createImg(item.images[1]?.name)" alt="single-product">
                                             </a>
 <!--                                            <div class="pro-actions-link">-->
 <!--                                                 <a href="compare.html" title="Compare"><span class="icon icon-MusicMixer"></span></a> -->
@@ -280,7 +280,7 @@
                                         <div class="pro-content">
                                             <div class="pro-info">
                                                 <h4><a [routerLink]="['/chi-tiet', item.slug]">{{item.name}}</a></h4>
-                                                <p><span class="special-price">{{item.price}}</span></p>
+                                                <p><span class="special-price">{{item.price|number}}</span>đ</p>
                                             </div>
                                             <div class="pro-add-cart">
                                               <a [routerLink]="['/chi-tiet', item.slug]">Xem chi
@@ -309,8 +309,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a [routerLink]="['/chi-tiet', item.slug]">
-                                                <img class="primary-img" [src]="createImg(item.images[0].name)" alt="single-product">
-                                                <img class="secondary-img" [src]="createImg(item.images[1].name)" alt="single-product">
+                                                <img class="primary-img" [src]="createImg(item.images[0]?.name)" alt="single-product">
+                                                <img class="secondary-img" *ngIf="item.images.length > 1" [src]="createImg(item.images[1]?.name)" alt="single-product">
                                             </a>
                                             <div class="pro-actions-link">
                                                 <!-- <a href="compare.html" title="Compare"><span class="icon icon-MusicMixer"></span></a> -->
@@ -324,10 +324,11 @@
                                         <div class="pro-content">
                                             <div class="pro-info">
                                                 <h4><a [routerLink]="['/chi-tiet', item.slug]">{{item.name}}</a></h4>
-                                                <p><span class="special-price">{{item.price}}</span></p>
+                                                <p><span class="special-price">{{item.price|number}}</span>đ</p>
                                             </div>
                                             <div class="pro-add-cart">
-                                                <a href="cart.html" title="Add to Cart">Add To Cart</a>
+                                                <a [routerLink]="['/chi-tiet', item.slug]">Xem chi
+                                                    tiết</a>
                                             </div>
                                         </div>
                                         <!-- Product Content End -->
@@ -352,8 +353,8 @@
                                         <!-- Product Image Start -->
                                         <div class="pro-img">
                                             <a [routerLink]="['/chi-tiet', item.slug]">
-                                                <img class="primary-img" [src]="createImg(item.images[0].name)" alt="single-product">
-                                                <img class="secondary-img" [src]="createImg(item.images[1].name)" alt="single-product">
+                                                <img class="primary-img" [src]="createImg(item.images[0]?.name)" alt="single-product">
+                                                <img class="secondary-img" *ngIf="item.images.length > 1" [src]="createImg(item.images[1]?.name)" alt="single-product">
                                             </a>
                                             <div class="pro-actions-link">
                                                 <!-- <a href="compare.html" title="Compare"><span class="icon icon-MusicMixer"></span></a> -->
@@ -367,10 +368,11 @@
                                         <div class="pro-content">
                                             <div class="pro-info">
                                                 <h4><a [routerLink]="['/chi-tiet', item.slug]">{{item.name}}</a></h4>
-                                                <p><span class="special-price">{{item.price}}</span></p>
+                                                <p><span class="special-price">{{item.price|number}}</span>đ</p>
                                             </div>
                                             <div class="pro-add-cart">
-                                                <a href="cart.html" title="Add to Cart">Add To Cart</a>
+                                                <a [routerLink]="['/chi-tiet', item.slug]">Xem chi
+                                                    tiết</a>
                                             </div>
                                         </div>
                                         <!-- Product Content End -->
@@ -416,21 +418,21 @@
 <div class="lapto-computers pb-80">
     <div class="container">
         <div class="electronics-list-area d-flex flex-wrap align-items-center justify-content-between mb-40">
-            <h5 class="e-header mb-sm-15">Laptops & Computers</h5>
+            <h5 class="e-header mb-sm-15">Laptops & Iphone</h5>
             <div class="e-tabs-list">
                 <!-- Nav tabs -->
                 <ul class="nav tabs-area categorie-tabs-area" role="tablist">
                     <li class="nav-item">
-                        <a class="active" data-toggle="tab" href="#computer">computer</a>
+                        <a class="active" data-toggle="tab" href="#computer">Ipad</a>
                     </li>
                     <li class="nav-item">
-                        <a data-toggle="tab" href="#laptop">laptop</a>
+                        <a data-toggle="tab" href="#laptop">Laptop</a>
                     </li>
                     <li class="nav-item">
-                        <a data-toggle="tab" href="#camera">camera</a>
+                        <a data-toggle="tab" href="#camera">Iphone</a>
                     </li>
                     <li class="nav-item">
-                        <a data-toggle="tab" href="#speaker">speaker</a>
+                        <a data-toggle="tab" href="#speaker">Mac</a>
                     </li>
                     <li class="nav-item">
                         <a data-toggle="tab" href="#others">others</a>
@@ -452,15 +454,15 @@
                                 <!-- Product Image Start -->
                                 <div class="pro-img">
                                     <a href="product-details.html">
-                                        <img class="primary-img" src="assets/img/products/p1.jpeg" alt="single-product">
+                                        <img class="primary-img" src="assets\images\12green.jpg" alt="single-product">
                                     </a>
                                 </div>
                                 <!-- Product Image End -->
                                 <!-- Product Content Start -->
                                 <div class="pro-content">
                                     <div class="pro-info">
-                                        <h4><a href="product-details.html">xer jenon dslr</a></h4>
-                                        <p><span class="special-price">$140.00</span></p>
+                                        <h4><a href="product-details.html">Iphone 12</a></h4>
+                                        <p><span class="special-price">20.990,000 đ</span></p>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -479,15 +481,15 @@
                                 <!-- Product Image Start -->
                                 <div class="pro-img">
                                     <a href="product-details.html">
-                                        <img class="primary-img" src="assets/img/products/p2.jpeg" alt="single-product">
+                                        <img class="primary-img" src="assets\images\ipad pro 12.jpg" alt="single-product">
                                     </a>
                                 </div>
                                 <!-- Product Image End -->
                                 <!-- Product Content Start -->
                                 <div class="pro-content">
                                     <div class="pro-info">
-                                        <h4><a href="product-details.html">jibon mouse pad</a></h4>
-                                        <p><span class="special-price">$10.00</span></p>
+                                        <h4><a href="product-details.html">Ipad pro 12.9</a></h4>
+                                        <p><span class="special-price">20.999,000 đ</span></p>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -506,15 +508,15 @@
                                 <!-- Product Image Start -->
                                 <div class="pro-img">
                                     <a href="product-details.html">
-                                        <img class="primary-img" src="assets/img/products/p3.jpeg" alt="single-product">
+                                        <img class="primary-img" src="assets\images\macbook-air-gallery1-20201110_GEO_US.jpg" alt="single-product">
                                     </a>
                                 </div>
                                 <!-- Product Image End -->
                                 <!-- Product Content Start -->
                                 <div class="pro-content">
                                     <div class="pro-info">
-                                        <h4><a href="product-details.html">olian selfie cam</a></h4>
-                                        <p><span class="special-price">$14.00</span></p>
+                                        <h4><a href="product-details.html">MacBook Air 13" </a></h4>
+                                        <p><span class="special-price">26.091,000 đ</span></p>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -546,8 +548,8 @@
                                 <!-- Product Content Start -->
                                 <div class="pro-content">
                                     <div class="pro-info">
-                                        <h4><a href="product-details.html">Ponno Dia remote</a></h4>
-                                        <p><span class="special-price">$32.00</span></p>
+                                        <h4><a href="product-details.html">Tai nghe bluetooth</a></h4>
+                                        <p><span class="special-price">2.950,000 đ</span></p>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -566,15 +568,15 @@
                                 <!-- Product Image Start -->
                                 <div class="pro-img">
                                     <a href="product-details.html">
-                                        <img class="primary-img" src="assets/img/products/p5.jpeg" alt="single-product">
+                                        <img class="primary-img" src="assets\images\13hong.jpg" alt="single-product">
                                     </a>
                                 </div>
                                 <!-- Product Image End -->
                                 <!-- Product Content Start -->
                                 <div class="pro-content">
                                     <div class="pro-info">
-                                        <h4><a href="product-details.html">Razra solo Pro</a></h4>
-                                        <p><span class="special-price">$30.00</span></p>
+                                        <h4><a href="product-details.html">Iphone 13</a></h4>
+                                        <p><span class="special-price">4.990.000 đ</span></p>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -593,15 +595,15 @@
                                 <!-- Product Image Start -->
                                 <div class="pro-img">
                                     <a href="product-details.html">
-                                        <img class="primary-img" src="assets/img/products/p6.jpeg" alt="single-product">
+                                        <img class="primary-img" src="assets\images\637274055571516090_38mm_Silver_Aluminum_White_Sport_Band_34R_Vertical_US-EN_SCREEN (2).jpg" alt="single-product">
                                     </a>
                                 </div>
                                 <!-- Product Image End -->
                                 <!-- Product Content Start -->
                                 <div class="pro-content">
                                     <div class="pro-info">
-                                        <h4><a href="product-details.html">Diari keyboard</a></h4>
-                                        <p><span class="special-price">$140.00</span></p>
+                                        <h4><a href="product-details.html">Apple Watch 3</a></h4>
+                                        <p><span class="special-price">4.990.000 đ</span></p>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -626,15 +628,15 @@
                                 <!-- Product Image Start -->
                                 <div class="pro-img">
                                     <a href="product-details.html">
-                                        <img class="primary-img" src="assets/img/products/p7.jpeg" alt="single-product">
+                                        <img class="primary-img" src="assets\images\bàn phím ipad 2.jpg" alt="single-product">
                                     </a>
                                 </div>
                                 <!-- Product Image End -->
                                 <!-- Product Content Start -->
                                 <div class="pro-content">
                                     <div class="pro-info">
-                                        <h4><a href="product-details.html">jenon Real Box</a></h4>
-                                        <p><span class="special-price">$140.00</span></p>
+                                        <h4><a href="product-details.html">Smart Keyboard</a></h4>
+                                        <p><span class="special-price">4.465,000 đ</span></p>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -653,15 +655,15 @@
                                 <!-- Product Image Start -->
                                 <div class="pro-img">
                                     <a href="product-details.html">
-                                        <img class="primary-img" src="assets/img/products/p8.jpeg" alt="single-product">
+                                        <img class="primary-img" src="assets\images\13prmxanh.jpg" alt="single-product">
                                     </a>
                                 </div>
                                 <!-- Product Image End -->
                                 <!-- Product Content Start -->
                                 <div class="pro-content">
                                     <div class="pro-info">
-                                        <h4><a href="product-details.html">Oliven Ip Cam</a></h4>
-                                        <p><span class="special-price">$140.00</span></p>
+                                        <h4><a href="product-details.html">Iphone 13 pro max</a></h4>
+                                        <p><span class="special-price">33.990,000 đ</span></p>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -680,15 +682,15 @@
                                 <!-- Product Image Start -->
                                 <div class="pro-img">
                                     <a href="product-details.html">
-                                        <img class="primary-img" src="assets/img/products/p9.jpeg" alt="single-product">
+                                        <img class="primary-img" src="assets\images\mbp13touch-space-gallery2-202005_GEO_US.jpg" alt="single-product">
                                     </a>
                                 </div>
                                 <!-- Product Image End -->
                                 <!-- Product Content Start -->
                                 <div class="pro-content">
                                     <div class="pro-info">
-                                        <h4><a href="product-details.html">Ponno Real Box</a></h4>
-                                        <p><span class="special-price">$140.00</span></p>
+                                        <h4><a href="product-details.html">Macbook Pro M1</a></h4>
+                                        <p><span class="special-price">45.810,000 đ</span></p>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>

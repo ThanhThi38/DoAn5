@@ -110,8 +110,15 @@
                     </ul>
                     <!-- Product Thumbnail Tab Content Start -->
                     <div class="tab-content thumb-content">
-                        <div id="dtail" class="tab-pane fade show active">
-                            <p innerHTML="{{product.content}}"></p>
+                        <div id="dtail" class="tab-pane fade show active show_less">
+                            <span class="view_less">
+                                <div innerHTML="{{truncateChar(product.content)}}"></div>
+                                <p class="text-center" (click)="viewMore()">Đọc thêm</p>
+                            </span>
+                            <span class="view_more">
+                                <div innerHTML="{{product.content}}"></div>
+                                <p class="text-center" (click)="viewLess()">Ẩn bớt</p>
+                            </span>
                         </div>
                     </div>
                     <!-- Product Thumbnail Tab Content End -->
@@ -139,8 +146,7 @@
                         <!-- Product Image Start -->
                         <div class="pro-img">
                             <a [routerLink]="['/chi-tiet', item.slug]">
-                                <img class="primary-img" [src]="createImg(item.images[0].name)" alt="single-product">
-                                <img class="secondary-img" [src]="createImg(item.images[1].name)" alt="single-product">
+                                <img class="primary-img" [src]="createImg(item.images[0]?.name)" alt="single-product">
                             </a>
                             <div class="pro-actions-link">
                                 <!-- <a href="compare.html" title="Compare"><span class="icon icon-MusicMixer"></span></a> -->
@@ -155,7 +161,7 @@
                         <div class="pro-content">
                             <div class="pro-info">
                                 <h4><a [routerLink]="['/chi-tiet', item.slug]">{{item.name}}</a></h4>
-                                <p><span class="special-price">{{item.price}}</span></p>
+                                <p><span class="special-price">{{item.price|number}} </span>đ</p>
                             </div>
                             <div class="pro-add-cart">
                               <a [routerLink]="['/chi-tiet', item.slug]">Xem chi

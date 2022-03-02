@@ -70,7 +70,7 @@
                           <a [routerLink]="['/chi-tiet', item.products.slug]">{{item.products.name}} </a>
                         </h6>
                         <span
-                          class="cart-price">{{ (item.products.price - (item.products.price * item.products.sale / 100) + item.products.options.price) }}
+                          class="cart-price">{{ (item.products.price - (item.products.price * item.products.sale / 100) + item.products.options.price)|number }}
                           đ</span>
                         <span><label class="color-picker__color"
                                      [ngStyle]="{'background': item.products.options.name, 'width': '15px', 'height': '15px'}"></label></span>
@@ -84,7 +84,7 @@
                     <div class="cart-footer" *ngIf="total != 0">
                       <ul class="price-content">
                         <li>Tổng tiền
-                          <span>{{total}} đ</span>
+                          <span>{{total|number}} đ</span>
                         </li>
                       </ul>
                       <div class="cart-actions text-center" *ngIf="total != 0">

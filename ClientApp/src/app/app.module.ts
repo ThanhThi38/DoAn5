@@ -15,11 +15,10 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { environment } from 'src/environments/environment';
 import { CartService } from './libs/cart.service';
-
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

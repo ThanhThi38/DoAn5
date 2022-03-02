@@ -203,4 +203,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="348" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1640357642840">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="348" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1640357642840" />
+  </component>
 </project>
